@@ -2741,7 +2741,7 @@ class NetworkDeviceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/network-device/${id}/wireless-info', 'GET',
+            '/api/v1/network-device/{id}/wireless-info', 'GET',
             path_params,
             query_params,
             header_params,

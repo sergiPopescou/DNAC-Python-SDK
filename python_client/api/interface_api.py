@@ -588,7 +588,7 @@ class InterfaceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/interface/network-device/${deviceId}', 'GET',
+            '/api/v1/interface/network-device/{deviceId}', 'GET',
             path_params,
             query_params,
             header_params,
@@ -687,7 +687,7 @@ class InterfaceApi(object):
         auth_settings = []  # noqa: E501
 
         return self.api_client.call_api(
-            '/api/v1/interface/network-device/${deviceId}/count', 'GET',
+            '/api/v1/interface/network-device/{deviceId}/count', 'GET',
             path_params,
             query_params,
             header_params,

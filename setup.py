@@ -13,7 +13,7 @@
 
 from setuptools import setup, find_packages  # noqa: H301
 
-NAME = "python-client"
+NAME = "dnacisco"
 VERSION = "1.0.0"
 # To install the library, run the following
 #
@@ -27,10 +27,10 @@ REQUIRES = ["urllib3 >= 1.15", "six >= 1.10", "certifi", "python-dateutil"]
 setup(
     name=NAME,
     version=VERSION,
-    description="Swagger",
+    description="dna cisco",
     author_email="",
     url="",
-    keywords=["Swagger", "Swagger"],
+    keywords=["DNA", "CISCO"],
     install_requires=REQUIRES,
     packages=find_packages(),
     include_package_data=True,
